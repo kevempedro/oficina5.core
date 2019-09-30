@@ -1,6 +1,6 @@
 # officina5.core
 
-É um serviço desenvolvido com Node.js e MySql, responsável pelo CRUD de veiculos em uma banco relacional.
+É um serviço desenvolvido com Node.js e MySql, responsável pelo CRUD de veiculos em uma banco de dados relacional.
 
 ## Tecnologias
 
