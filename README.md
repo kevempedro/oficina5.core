@@ -1,35 +1,35 @@
 # officina5.core
 
-É um serviço desenvolvido com Node.js e MySql, responsável pelo CRUD de veiculos em uma banco de dados relacional.
+It is a service developed with Node.js and MySql, responsible for the CRUD of vehicles in a relational database.
 
-## Tecnologias
+## Technologies
 
-* Node.js -> Ambiente de execução Javascript server-side.
-* MySql -> Banco de dados relacional.
-* JavaScript -> Linguagem de programação client-side, mas que também agora roda no lado serve-side junto com o Node.js.
+* Node.js -> Javascript runtime environment server-side.
+* MySql -> Relational database.
+* JavaScript -> Client-side programming language, which now also runs on the serve-side side along with Node.js.
 
-## Ferramentas utilizadas
+## Tools used
 
-* VSCODE -> IDE de desenvolviemento utilizada para escrever os códigos.
-* Insomnia -> Utilizado para testar os serviços GET, POST, PUT, DELETE e PATCH do projeto.
+* VSCODE -> Development IDE used to write code.
+* Insomnia -> Used to test the project's GET, POST, PUT, DELETE, and PATCH.
 
-## Bibliotecas
+## Libs
 
 ### Sequelize
 
-ORM (Object-Relational Mapper) para Node.js. Ele permite criar, buscar, alterar e remover dados do banco usando objetos e métodos em JS, além de fazer alterações na estrutura das tabelas. Ele suporta os bancos PostgreSQL, MySQL, MSSQL e SQLite.
+Object-Relational Mapper (ORM) for Node.js. It allows you to create, fetch, alter and remove database data using JS objects and methods, as well as make changes to the table structure. It supports PostgreSQL, MySQL, MSSQL and SQLite databases.
 
 ### Express
 
- É o framework web mais popular, e é a biblioteca subjacente para uma série de outros frameworks populares de Nodes. Fornece mecanismos para:
+It is the most popular web framework, and is the underlying library for a number of other popular Node frameworks. Provides mechanisms for:
 
-* Gerencia as requisições de diferentes requisições e rotas e URLs.
-* Combinar com mecanismos de renderização de "view" para gerar respostas inserindo dados em modelos.
-* Definir as configurações comuns da aplicação web, como a porta a ser usada para conexão e a localização dos modelos que são usados para renderizar a resposta.
-* Adicionar em qualquer ponto da requisição um "middleware" para interceptar processar ou pré-processar e tratamentar à mesma.
+* Manages the requests of different requests and routes and URLs.
+* Combine with view rendering engines to generate responses by inserting data into models.
+* Configure common web application settings such as the port to use for connection and the location of templates that are used to render the response.
+* Add middleware at any point of the request to intercept processing or preprocessing and processing it.
 
-## Instalação
+## Instalation
 
-* 'npm install' ou 'yarn' -> para gerar a node_modules;
-* 'npx sequelize db:migrate' ou 'yarn sequelize db:migrate' -> para gerar o banco de acordo com as configurações da dabase.js;
-* 'npm run dev' ou 'yarn dev' -> para rodar o porjeto.
+* 'npm install' or 'yarn' -> to generate the node_modules;
+* 'npx sequelize db:migrate' or 'yarn sequelize db:migrate' -> to generate the database according to dabase.js settings;
+* 'npm run dev' or 'yarn dev' -> to run the project
