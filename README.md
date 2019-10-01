@@ -30,6 +30,6 @@ It is the most popular web framework, and is the underlying library for a number
 
 ## Instalation
 
-* 'npm install' or 'yarn' -> to generate the node_modules;
-* 'npx sequelize db:migrate' or 'yarn sequelize db:migrate' -> to generate the database according to dabase.js settings;
+* 'npm install' or 'yarn' -> to generate the node_modules.
+* 'npx sequelize db:migrate' or 'yarn sequelize db:migrate' -> to generate the database according to dabase.js settings.
 * 'npm run dev' or 'yarn dev' -> to run the project.
