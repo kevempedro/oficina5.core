@@ -5,7 +5,7 @@ const messageReturn = require('../helpers/messageReturn')
 
 class VehicleController {
   createVehicle (req, res) {
-    const validator = validatorVehicle(req)
+    const validator = validatorVehicle(req.body)
 
     if (validator !== '') {
       return res.status(statusCode.BAD_REQUEST).json({ message: validator })

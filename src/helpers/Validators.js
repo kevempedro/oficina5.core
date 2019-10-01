@@ -1,24 +1,22 @@
 class Validators {
   validatorVehicle (req) {
-    const validator = req.body
-
-    if (validator.vehicle === '') {
+    if (req.vehicle === '') {
       return 'Vehicle is necessary'
     }
 
-    if (validator.brand === '') {
+    if (req.brand === '') {
       return 'Brand is necessary'
     }
 
-    if (validator.year === undefined) {
+    if (req.year === null) {
       return 'Year is necessary'
     }
 
-    if (validator.description === '') {
+    if (req.description === '') {
       return 'Description is necessary'
     }
 
-    if (validator.sold === undefined) {
+    if (req.sold === null) {
       return 'Sold is necessary'
     }
 
